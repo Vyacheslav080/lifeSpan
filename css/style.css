@@ -83,4 +83,12 @@ body {
 button {
   font-size: 1em;
 }
+
+@media only screen and (max-width: 600px) {
+  #timer {
+    display: -ms-grid;
+    display: grid;
+    grid-auto-flow: row;
+  }
+}
 /*# sourceMappingURL=style.css.map */
